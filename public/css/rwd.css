@@ -1,0 +1,238 @@
+@media screen and (max-width: 440px)
+{
+    .container #mapaStrony, .container #kontaktMaly
+    {
+        float:none;
+        width:100%;
+        margin:auto;
+        margin:5%;  
+        
+    } 
+    
+    #bottomBox
+    {
+        width:100%;
+        margin:auto;
+        height: 300px;
+        
+    }
+    
+    nav{height:360px;}
+}
+
+@media screen and (min-width:270px) and (max-width: 340px)
+{
+    nav{height:310px;}
+}
+
+@media screen and (max-width: 269px)
+{
+    nav{height:280px;}
+}
+
+@media screen and (min-width:341px) and (max-width: 385px)
+{
+    nav{height:360px;}
+}
+
+@media screen and (min-width:440px) and (max-width: 480px)
+{
+    nav{height:380px;}
+}
+
+@media screen and (min-width:481px) and (max-width: 520px)
+{
+    nav{height:403px;}
+}
+
+@media screen and (min-width:521px) and (max-width: 560px)
+{
+    nav{height:420px;}
+}
+
+@media screen and (min-width:561px) and (max-width: 600px)
+{
+    nav{height:420px;}
+}
+
+@media screen and (min-width:601px) and (max-width: 640px)
+{
+    nav{height:440px;}
+}
+
+@media screen and (min-width:641px) and (max-width: 680px)
+{
+    nav{height:460px;}
+}
+
+@media screen and (min-width:681px) and (max-width: 720px)
+{
+    nav{height:480px;}
+}
+
+@media screen and (min-width:721px) and (max-width: 760px)
+{
+    nav{height:500px;}
+}
+
+@media screen and (min-width:761px) and (max-width: 800px)
+{
+    nav{height:520px;}
+}
+
+@media screen and (min-width:801px) and (max-width: 850px)
+{
+    nav{height:540px;}
+}
+
+@media screen and (max-width: 550px)
+{
+    .container, #tresc {width:90%;}
+    
+    nav li
+    {
+        display:block;
+        margin:auto;
+    }
+    
+    nav li a
+    {
+        display:block;
+        padding: 6%;
+        background-color: #edecec;
+        display:list-item;
+        text-decoration : none;
+        font-size: 20px;
+        font-weight: bold;
+        margin:auto;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:850px)
+{
+        nav {position:static;}
+        .stickers 
+        {
+            top:0;
+        }
+
+        header 
+        {
+            top:100px;
+            height:5%;
+        }
+        
+        #logo
+        {
+            height:100px;
+        }
+        
+        nav ul li a
+        {
+            border:1pt solid black;
+        }
+        
+        nav ul {
+            margin:auto;
+            text-align: center;
+        }
+}
+
+@media screen and (min-width: 551px) and (max-width:850px)
+{
+    .container, #tresc {width:80%;}
+    
+    nav li
+    {
+        display:block;
+        margin:auto;
+    }
+    
+    nav li a
+    {
+        display:block;
+        padding: 6%;
+        background-color: #edecec;
+        display:list-item;
+        text-decoration : none;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    
+}
+
+@media screen and (min-width: 851px) and (max-width:941px)
+{
+    nav li a{
+        padding:15px 13px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 942px) and (max-width:1015px)
+{
+    nav li a{
+        padding:15px 20px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1016px) and (max-width:1100px)
+{
+    nav li a{
+        padding:15px 25px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1016px) and (max-width:1160px)
+{
+    nav li a{
+        padding:15px 25px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1161px) and (max-width:1250px)
+{
+    nav li a{
+        padding:15px 35px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1251px) and (max-width:1350px)
+{
+    nav li a{
+        padding:15px 40px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1351px) and (max-width:1450px)
+{
+    nav li a{
+        padding:15px 45px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1451px) and (max-width:1550px)
+{
+    nav li a{
+        padding:15px 50px;
+    }
+    
+    
+}

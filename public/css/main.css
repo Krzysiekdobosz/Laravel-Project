@@ -1,0 +1,394 @@
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+
+::-moz-selection {
+    background: #020f1e;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #6700d5;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body a
+{
+    text-decoration: none;
+}
+
+h1 a, h2 a
+{
+    color: #9d0018;
+}
+
+body {
+    width:100%;
+    clear:both;
+    margin: auto;
+    background: #9035f1;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+#tresc{
+    width:70%;
+    clear:both;
+    margin: auto;
+
+    margin-bottom:5%;
+}
+
+#bottomBox{
+
+    text-align: center;
+    clear:both;
+    margin:auto;
+    width:100%;
+    background: #6700d5;
+
+    height:200px;
+
+
+}
+
+.container #mapaStrony
+{
+    float:left;
+    width:50%;
+    color:black;
+}
+
+.container #kontaktMaly
+{
+    float:right;
+    width:50%;
+    color:black;
+}
+
+footer {
+    text-align: center;
+    clear:both;
+    margin:auto;
+
+    width:100%;
+    background: #0045a0;
+    color: #001a9d;
+    height: 40px;
+    font-weight: bold;
+    font-size:18px;
+    text-decoration: underline;
+}
+
+footer a
+{
+   text-decoration:none;
+}
+
+footer a:visited
+{
+   color: #ec1818;
+}
+
+nav
+{
+text-align: center;
+overflow: hidden;
+
+background: #0045a0;
+width:100%;
+position:sticky;
+top:150px;
+height:60px;
+font-size: 16px;
+
+    color: #ae0018;
+
+}
+
+
+
+nav li{
+    display:inline;
+    list-style-type: none;
+}
+
+nav li a{
+
+    display:block;
+    padding: 16px 60px;
+    background-color: #0045a0;
+    display:inline;
+    text-decoration : none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    background-color: #6700d5;
+    color:#ff0018;
+
+}
+
+nav li a:link, nav li a:visited
+{
+    color: #8a0018;
+}
+
+li a:link, li a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+.active{
+    background-color: #0045a0;
+}
+
+header
+{
+    background: #0045a0;
+    width:100%;
+    text-align: center;
+    position:sticky;
+    top:210px;
+    clear:both;
+    color: #9d0018;
+}
+
+#logo{
+    width:100%;
+    margin:auto;
+    height:200px;
+    clear:both;
+
+
+}
+
+.container{
+    width:70%;
+    margin:auto;
+    text-align: left;
+}
+
+.stickers{
+    position:sticky;
+    top:-20px;
+}
+
+h2,h3,h4,h5,h6{
+    color: #9d0018;
+}
+
+#kontaktMaly li, .noListType
+{
+    list-style-type: none;
+}
+
+#mapaStrony a:active, #mapaStrony a:hover, #kontaktMaly a:hover, #kontaktMaly a:active
+{
+    color:#9d0018;
+}
+
+#tresc a:active, #tresc a:hover
+{
+    color:#9d0018;
+}
+
+
+.red
+{
+    color: red;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+
+
+.visuallyhidden {
+    border: 0;
+
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+
+.invisible {
+    visibility: hidden;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+@media only screen and (min-width: 35em) {
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
