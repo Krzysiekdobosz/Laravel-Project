@@ -11,7 +11,6 @@ To run the project, you need to have installed:
 - Laravel (latest version)
 
 Installation
-============
 
 1. Unpack the project folder into the `htdocs` directory in XAMPP.
 
